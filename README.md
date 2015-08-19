@@ -107,8 +107,10 @@ tidy <- melt(df_averages, c("subjects", "activities"))
 
 The measurements are now in rows not in columns, so it's enough to leave them abbreviated. Nevertheless, they are further cleaned to take our extra dots. they now look clean (abbreviated, lowercase and not unnecessary punctuations)
 ```
-measurements_tidy <- sub("...", ".", x, fixed = TRUE)
-measurements_tidy <- sub("..", "", x, fixed = TRUE)
+names(tidy) <- c("subjects", "activities", "measurements", "average")
+
+measurements_tidy <- sub("...", ".", tidy$measurements, fixed = TRUE)
+measurements_tidy <- sub("..", "", tidy$measurements, fixed = TRUE)
 tidy$measurements <- measurements_tidy
 ```
 
