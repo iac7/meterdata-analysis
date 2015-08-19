@@ -1,0 +1,206 @@
+CODE BOOK
+
+Coursera Getting and Cleaning Data Course Project
+
+Data Book for Tidy Data Set
+
+SUBJECTS
+For each record there is an identifier of the subject who carried out the experiment
+The experiments have been carried out with a group of 30 volunteers 
+within an age bracket of 19-48 years.
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+
+
+ACTIVITIES
+Each person performed each of this six activities wearing a smartphone 
+(Samsung Galaxy S II) on the waist.
+
+1 WALKING
+2 WALKING_UPSTAIRS
+3 WALKING_DOWNSTAIRS
+4 SITTING
+5 STANDING
+6 LAYING
+
+
+
+MEASUREMENSTRS
+The measurements were calculated based on the signals received from smartphone devices,
+in particular from the accelerometer and gyroscope.
+
+The signals that were used to calculates the measurements are:
+3-axial linear acceleration :  X Y Z
+3-axial angular velocity :  X Y Z
+And therefore, '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
+
+UNITS
+Prefix 't' to denote time, and 'f' - frequency. 
+
+Then mean values and standard deviation was calculated on top. 
+mean: Mean value
+std: Standard deviation
+
+As a result, the following data are included in the dataset as measurements.
+
+ 
+	tBodyAcc-XYZ (the body linear acceleration, t = time, X, Y and Z directions)		
+
+tbodyacc.mean.x
+tbodyacc.mean.y
+tbodyacc.mean.z
+
+tbodyacc.std.x
+tbodyacc.std.y
+tbodyacc.std.z
+	
+	tGravityAcc-XYZ (the gravity acceleration, t = time, X, Y and Z directions)
+
+tgravityacc.mean.x
+tgravityacc.mean.y
+tgravityacc.mean.z
+
+tgravityacc.std.x
+tgravityacc.std.y
+tgravityacc.std.z
+
+	tBodyAccJerk-XYZ (the body linear acceleration derived in time to obtain Jerk signals 
+						from angular velocity, t = time, X, Y and Z directions)
+
+tbodyaccjerk.mean.x
+tbodyaccjerk.mean.y
+tbodyaccjerk.mean.z
+
+tbodyaccjerk.std.x
+tbodyaccjerk.std.y
+tbodyaccjerk.std.z
+
+	tBodyGyro-XYZ  (the body signals from gyroscope, t = time, X, Y and Z directions)
+
+tbodygyro.mean.x
+tbodygyro.mean.y
+tbodygyro.mean.z
+
+tbodygyro.std.x
+tbodygyro.std.y
+tbodygyro.std.z
+
+	tBodyGyroJerk-XYZ (the body signals from gyroscope to obtain Jerk signals from angular
+						velocity, t = time, X, Y and Z directions)
+						
+
+tbodygyrojerk.mean.x
+tbodygyrojerk.mean.y
+tbodygyrojerk.mean.z
+
+tbodygyrojerk.std.x
+tbodygyrojerk.std.y
+tbodygyrojerk.std.z
+
+	tBodyAccMag (the body acceleration magnitude, t = time)
+
+tbodyaccmag.mean
+tbodyaccmag.std
+
+	tGravityAccMag (the gravity acceleration magnitude, t = time)
+
+tgravityaccmag.mean
+tgravityaccmag.std
+
+	tBodyAccJerkMag (the body acceleration magnitude to obtain Jerk signals 
+					from angular velocity, t = time)
+
+tbodyaccjerkmag.mean
+tbodyaccjerkmag.std
+
+	tBodyGyroMag (the body gyroscope magnitude, t = time)
+
+tbodygyromag.mean
+tbodygyromag.std
+
+	tBodyGyroJerkMag (the body gyroscope magnitude to obtain Jerk signals 
+					from angular velocity, t = time)
+
+tbodygyrojerkmag.mean
+tbodygyrojerkmag.std
+
+	fBodyAcc-XYZ (the body acceleration,  f = frequency)
+
+fbodyacc.mean.x
+fbodyacc.mean.y
+fbodyacc.mean.z
+
+fbodyacc.std.x
+fbodyacc.std.y
+fbodyacc.std.z
+
+	fBodyAccJerk-XYZ (the body gyroscope magnitude to obtain Jerk signals 
+					from angular velocity, f = frequency)
+
+fbodyaccjerk.mean.x
+fbodyaccjerk.mean.y
+fbodyaccjerk.mean.z
+
+fbodyaccjerk.std.x
+fbodyaccjerk.std.y
+fbodyaccjerk.std.z
+
+	fBodyGyro-XYZ (the body gyroscope, f = frequency)
+
+
+fbodygyro.mean.x
+fbodygyro.mean.y
+fbodygyro.mean.z
+fbodygyro.std.x
+fbodygyro.std.y
+fbodygyro.std.z
+
+	fBodyAccMag (the body acceleration magnitude, f = frequency)
+
+fbodyaccmag.mean
+fbodyaccmag.std
+
+	fBodyAccJerkMag (the body acceleration magnitude to obtain Jerk signals 
+					from angular velocity, f = frequency)
+
+fbodybodyaccjerkmag.mean
+fbodybodyaccjerkmag.std
+
+	fBodyGyroMag (the body gyroscope magnitude, f = frequency)
+
+fbodybodygyromag.mean
+fbodybodygyromag.std
+
+	fBodyGyroJerkMag (the body gyroscope magnitude to obtain Jerk signals 
+					from angular velocity, f = frequency)
+
+fbodybodygyrojerkmag.mean
+fbodybodygyrojerkmag.std
