@@ -53,7 +53,7 @@ Each person performed each of this six activities wearing a smartphone
 
 
 
-MEASUREMENSTRS
+MEASUREMENTS
 The measurements were calculated based on the signals received from smartphone devices,
 in particular from the accelerometer and gyroscope.
 
@@ -204,3 +204,6 @@ fbodybodygyromag.std
 
 fbodybodygyrojerkmag.mean
 fbodybodygyrojerkmag.std
+
+AVERAGE
+the summary mean of each measurement within the experiments.
